@@ -1,0 +1,11 @@
+.card{
+    width: 20vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 34px;
+    height: auto;
+    overflow: hidden;
+}
+.cards-descriptions,.cards-titles{
+    padding: 10px;
+}
