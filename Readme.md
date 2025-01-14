@@ -134,6 +134,106 @@ To use props in a functional component, pass props as a parameter and access its
 <br>
 <br>
 
+# <p align='center'>Day 2</p> 
+
+### <p align="center">⚛️ Hooks in React</p>
+
+
+- React Hooks are **special functions** that let you use React features, like **state** and **lifecycle methods**, in **functional components**.   
+
+### <p align="center">🤔 What are Hooks?</p>
+
+- 🛠 **React Hooks** allow you to add functionality to your functional components without using class components.  
+
+- 🔄 They make it easier to use **state**, **effects**, and other React features.  
+- 📦 Think of hooks as tools that enhance your components.
+
+<br>
+
+### <p align="center">🌟 Commonly used Hooks in React ⚛️</p>
+- 🔧 `useState()` – Manage State in Functional Components
+
+- The `useState()` The React **useState** Hook allows us to track state in a **function component**.
+
+- **State** generally refers to data or properties that need to be tracking in an application. 🎉
+
+- **State** is like a variable that React keeps track of.  
+- It helps your components remember things, like user input or a counter value.
+
+<br>
+
+### <p align="center">🛠 How Does `useState()` Work?</p>
+
+- When you use `useState()`, it gives you two things: 
+
+  1. 🧮 The **current value** of the state.  
+
+  2. 🔄 A **function to update the value**.
+
+
+
+### 🚀 Example:
+```javascript
+import React, { useState } from "react";
+
+function Counter() {
+  // Initialize state with 0
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)} > Increase </button>
+    </div>
+  );
+}
+
+```
+
+
+
+- **count** is the current value of the state.
+
+- **setCount** is a function to update the state.
+
+- The **useState** Hook can be used to keep track of strings, numbers, booleans, arrays, objects, and any combination of these!
+
+- We could create multiple state Hooks to track individual values.
+
+
+
+### 🚀 Example:
+```javascript
+import React, { useState } from "react";
+
+function Car() {
+  const [brand, setBrand] = useState("Ford");
+  const [model, setModel] = useState("Mustang");
+  const [year, setYear] = useState("1964");
+  const [color, setColor] = useState("red");
+}
+
+```
+
+<br>
+
+### <p align="center">📝 How to Change the Title of the Page in React ⚛️</p>
+
+1. 🌐 Open the `index.html` file located in the **public** folder.  
+2. 🖊️ Find the `<title>` tag inside the `<head>` section.  
+3. ✏️ Change the title to whatever you want, like this: 
+
+    ```html
+    <title>Zahid Khattak React App</title>
+    ``` 
+
+<br>
+
+### <p align="center"> Happy Learning! 📚✨</p>
+
+<br>
+
 ### <p align='center'> Best VSCode Extension for React</p>
 
 ### 1. [ES7+React/Redux/React/React-Nativesnippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+
