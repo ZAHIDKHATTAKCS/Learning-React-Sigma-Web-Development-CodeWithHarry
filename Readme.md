@@ -246,7 +246,7 @@ function Car() {
 
 <br>
 
----
+<hr>
 
 ### <p align="center">📝 How to Change the Title of the Page in React ⚛️</p>
 
