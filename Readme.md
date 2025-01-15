@@ -15,25 +15,25 @@
 - **Why use `className` instead of `class`?**  
   Since React uses JavaScript to create applications, if you use `class`, React will interpret it as an **Object-Oriented Programming (OOP) class** instead of a CSS selector. Therefore, we use `className` for styling.
 
----
+##
 
 ### 🎛️ `useState`  
 - **What is `useState`?**  
   A special variable in React that can be updated dynamically, and these updates are reflected in the **DOM**.  
 
----
+##
 
 ### 🧩 `{ }` in React  
 - **Why use curly braces `{ }`?**  
   In React, curly braces allow you to include **JavaScript expressions** within your HTML (JSX). Without them, React will treat the content as plain HTML.
 
----
+##
 
 ### 📂 `App.js`  
 - The **`App.js`** file is the **main component** of your React application.  
 - It is the entry point that renders when you run your app.
 
----
+##
 
 ### 🛠️ Components  
 - A **component** in React is anything that appears on your application.  
@@ -42,26 +42,26 @@
   - A **card**  
   - A **footer**  
 
----
+##
 
 ### 🔗 Props  
 - **Props** allow you to **pass data from one component to another**.  
 - They enable communication between components and make them more dynamic.
 
----
+##
 
 ### 📂 What is a React App?  
 A **React App** is a project built using React, a popular JavaScript library for building user interfaces.  
 
 - When you create a React app (using tools like **Create React App** or **Vite**), it provides a ready-to-use **folder structure** and essential configurations for development. 📁  
 
----
+##
 
 ### ⚡ What is Vite?  
 - **Vite** is a fast and modern build tool that provides a smoother development experience for React projects. 🚀  
 - It is much **faster** than Create React App (CRA) and optimized for modern web development. 🔥  
 
----
+##
 
 ### 🛠️ Running the Project  
 1. If you're using **npm** to run your React project and encounter issues (e.g., `npm run dev` throws an error), it likely means **npm is not installed properly**. ❌  
@@ -79,7 +79,7 @@ A **React App** is a project built using React, a popular JavaScript library for
 
 <br>
 
----
+##
 
 
 # <p align="center">📅 Day 1 - React Learning</p>  
@@ -105,7 +105,7 @@ A **React App** is a project built using React, a popular JavaScript library for
     <img src="{home.jpg}" /> <!-- Correct way: self-closing tag -->
     ```
 
----
+##
 
 ### <p align="center">📋 Rules in React</p>  
 
@@ -128,7 +128,7 @@ A **React App** is a project built using React, a popular JavaScript library for
    ```bash
    npm start
 
----
+##
 
 ### <p align="center">✨ Props in React</p>  
 
@@ -143,7 +143,7 @@ A **React App** is a project built using React, a popular JavaScript library for
 - ### 📚 Definition  
 - Props are **attributes** passed from a parent component to a child component and are accessed using **props.propertyName**.
 
----
+##
 
 ### 🛠️ Usage  
 - **Props are passed** as attributes in the JSX tag in the parent component.  
@@ -158,7 +158,7 @@ A **React App** is a project built using React, a popular JavaScript library for
 ```
 <br>
 
----
+##
 
 # <p align='center'>Day 2</p> 
 
@@ -167,7 +167,7 @@ A **React App** is a project built using React, a popular JavaScript library for
 
 - React Hooks are **special functions** that let you use React features, like **state** and **lifecycle methods**, in **functional components**.   
 
----
+##
 
 ### <p align="center">🤔 What are Hooks?</p>
 
@@ -176,7 +176,7 @@ A **React App** is a project built using React, a popular JavaScript library for
 - 🔄 They make it easier to use **state**, **effects**, and other React features.  
 - 📦 Think of hooks as tools that enhance your components.
 
----
+##
 
 
 ### <p align="center">🌟 Commonly used Hooks in React ⚛️</p>
@@ -189,7 +189,7 @@ A **React App** is a project built using React, a popular JavaScript library for
 - **State** is like a variable that React keeps track of.  
 - It helps your components remember things, like user input or a counter value.
 
----
+##
 
 ### <p align="center">🛠 How Does `useState()` Work?</p>
 
@@ -246,7 +246,7 @@ function Car() {
 
 <br>
 
-<hr>
+##
 
 ### <p align="center">📝 How to Change the Title of the Page in React ⚛️</p>
 
